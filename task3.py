@@ -24,10 +24,10 @@ class BankAccount:
     def display_balance(self):
         print(f"Account Balance: ${self.balance}")
 
-# Create a BankAccount instance
+
 account = BankAccount(account_number="12345678", owner="John Doe", balance=500)
 
-# Let the user input how much they want to deposit or withdraw
+
 while True:
     print("\nChoose an action:")
     print("1. Deposit")
